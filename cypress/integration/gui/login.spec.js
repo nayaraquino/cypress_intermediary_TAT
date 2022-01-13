@@ -1,6 +1,3 @@
-//autocomplete cypress 
-/// <reference types="Cypress" />
-
 describe('Login', () => {
     it('Successfully', () => {
         cy.login()

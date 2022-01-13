@@ -1,5 +1,3 @@
-/// <reference types="Cypress" />
-
 const accessToken = Cypress.env('gitlab_access_token')
 
 Cypress.Commands.add('api_createProject', project => {

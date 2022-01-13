@@ -1,5 +1,3 @@
-/// <reference types="Cypress" />
-
 Cypress.Commands.add('login', () => {
     cy.visit('users/sign_in');
     cy.get('[data-qa-selector="login_field"]').type(Cypress.env('user_name'));
