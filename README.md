@@ -17,6 +17,33 @@ Projeto desenvolvido durante a realização do curso de [Testes Automatizados co
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 
+## :checkered_flag: Como Executar o Projeto
+```bash
+# Clone este repositório
+$ git clone https://github.com/nayaraquino/cypress_intermediary_TAT.git
+```
+A execução pode ser feita através da linha de comando ou do próprio framework.
+- Através da linha de comando:
+```bash
+# Na pasta curso-cypress-intermediario, execute:
+$ npx cypress open
+```
+- Através do framework:
+Basta abrir o Cypress e através da interface dele escolher a pasta do projeto.
+
+Após isso, é só escolher a spec desejada e assistir a execução dos testes.
+
+
+![running test](https://user-images.githubusercontent.com/71460952/114319822-7ec79a80-9ae9-11eb-951e-66e0c20e730a.gif)
+
+OU
+
+```bash
+# Na pasta curso-cypress-intermediario, execute:
+$ npx cypress run
+```
+
+
 ##
 Feito com ❤️ por <a href="https://www.linkedin.com/in/nayaraquino/">Nayara Aquino</a> :wave: Entre em contato!
 
